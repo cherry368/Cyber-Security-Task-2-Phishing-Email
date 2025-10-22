@@ -1,6 +1,7 @@
-# 🛡️ Phishing Email Analysis
+# 🛡️ Cyber Security Internship - Task 2
 
-## 🎯 Cyber Security Internship - Task 2
+## 🎯 Phishing Email Analysis
+
 
 ### 📋 Project Overview
 This repository contains a comprehensive analysis of a phishing email, demonstrating techniques to identify malicious emails and social engineering attacks.
