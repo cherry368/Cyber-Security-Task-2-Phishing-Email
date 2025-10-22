@@ -14,8 +14,7 @@ cybersecurity_task2_phishing_email_analysis/
 ├── phishing_email_sample.txt          # Raw email text for analysis
 ├── header_analysis_report.txt         # Email header analysis results
 ├── phishing_analysis_report.md        # Complete analysis report
-└── screenshots/                       # Supporting visual evidence
-    └── placeholder_upload_here.md     # Instructions for screenshots
+
 ```
 
 ### 🎯 Objectives
