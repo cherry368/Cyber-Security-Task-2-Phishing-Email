@@ -1,0 +1,21 @@
+From: PaypaI Support <support@paypaI-secure.com>
+To: user@example.com
+Subject: Urgent: Verify your PayPal Account Now
+
+Dear Customer,
+
+We detected suspicious activity on your account. To avoid suspension, please verify your information immediately by clicking the link below.
+
+👉 Verify Now: http://paypal-secure.com/verify
+
+Failure to do so may result in account termination.
+
+Thank you,
+PayPal Support
+
+---
+
+⚠️ PHISHING EMAIL SAMPLE - FOR EDUCATIONAL PURPOSES ONLY ⚠️
+
+This is a fictional phishing email created for cybersecurity training.
+DO NOT attempt to visit any links or contact any addresses listed above.
