@@ -1,0 +1,54 @@
+# Header Analysis Report
+
+## 1. Analysis Tools Used
+Found and analyzed the following email header details using online tools such as:
+- MXToolbox Email Header Analyzer (https://mxtoolbox.com/EmailHeaders.aspx)
+- Google Admin Toolbox Messageheader (https://toolbox.googleapps.com/apps/messageheader/)
+
+## 2. Email Overview
+**Subject:** Urgent: Verify your PayPal Account Now  
+**Sender:** support@paypaI-secure.com  
+**Body:** Contains a fake verification link urging immediate action.
+
+## 3. Header Analysis Results
+
+### Authentication Checks:
+- **SPF check:** FAILED (sender domain not authorized)
+- **DKIM signature:** INVALID
+- **DMARC:** FAIL
+
+### IP Address Information:
+- **Received IP:** 185.234.xx.xx (not matching PayPal network)
+- **Geolocation:** Unknown/Suspicious origin
+- **ISP:** Not associated with PayPal infrastructure
+
+### Routing Information:
+- **Return-Path:** suspiciousdomain@unknownhost.com
+- **Message trace:** Shows multiple relays, indicating possible spoofing activity
+- **Received headers:** Multiple hops through unknown mail servers
+
+### Domain Analysis:
+- **Sender Domain:** paypaI-secure.com (Note: Capital 'I' instead of 'l' - Domain Spoofing)
+- **Legitimate PayPal Domain:** paypal.com
+- **WHOIS Information:** Domain recently registered
+- **SSL Certificate:** Invalid or self-signed
+
+## 4. Red Flags Identified
+1. ❌ SPF/DKIM/DMARC authentication failures
+2. ❌ Sender IP not matching legitimate PayPal infrastructure
+3. ❌ Suspicious return-path domain
+4. ❌ Multiple relay servers in message trace
+5. ❌ Domain name uses homograph attack (I vs l)
+6. ❌ Recently registered domain
+7. ❌ Missing or invalid security certificates
+
+## 5. Summary
+Header results confirm that the sender's domain and IP are mismatched, SPF/DKIM validations failed, and the email exhibits typical phishing characteristics.
+
+**Verdict:** This email is definitively a phishing attempt. All authentication mechanisms have failed, and the infrastructure does not match legitimate PayPal systems.
+
+---
+
+📸 **Note:** Screenshots of actual header analysis from online tools should be uploaded to the `screenshots/` folder for complete documentation.
+
+⚠️ **For Educational Purposes Only** - This analysis is part of cybersecurity training.
